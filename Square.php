@@ -17,17 +17,11 @@ class Square implements Colorable
         echo 'Color all four side!!!';
     }
 
-    /**
-     * @return mixed
-     */
     public function getSize()
     {
         return $this->size;
     }
 
-    /**
-     * @param mixed $size
-     */
     public function setSize($size)
     {
         $this->size = $size;
@@ -38,9 +32,6 @@ class Square implements Colorable
         return pow($this->getSize(), 2);
     }
 
-    /**
-     * @return mixed
-     */
     public function getName()
     {
         return $this->name;

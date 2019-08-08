@@ -13,49 +13,31 @@ class Rectangle extends Shape
         $this->size_two = $sizeTwo;
     }
 
-    /**
-     * @return mixed
-     */
     public function getName()
     {
         return $this->name;
     }
 
-    /**
-     * @param mixed $name
-     */
     public function setName($name)
     {
         $this->name = $name;
     }
 
-    /**
-     * @return mixed
-     */
     public function getSizeTwo()
     {
         return $this->size_two;
     }
 
-    /**
-     * @param mixed $size_one
-     */
     public function setSizeOne($size_one)
     {
         $this->size_one = $size_one;
     }
 
-    /**
-     * @return mixed
-     */
     public function getSizeOne()
     {
         return $this->size_one;
     }
 
-    /**
-     * @param mixed $size_two
-     */
     public function setSizeTwo($size_two)
     {
         $this->size_two = $size_two;

@@ -14,6 +14,16 @@ class Triangle extends Shape
         $this->height = $height;
     }
 
+    function getName()
+    {
+        return $this->name;
+    }
+
+    function setName($name)
+    {
+        $this->name = $name;
+    }
+
     public function getArea()
     {
         return ($this->height * $this->size) / 2;

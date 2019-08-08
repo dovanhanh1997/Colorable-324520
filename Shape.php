@@ -1,6 +1,6 @@
 <?php
 
-class Shape
+abstract class Shape
 {
     public $name;
 
@@ -9,20 +9,7 @@ class Shape
         $this->name = $name;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
+    abstract function getName();
 
-    /**
-     * @param mixed $name
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-    }
-
+    abstract function setName($name);
 }
